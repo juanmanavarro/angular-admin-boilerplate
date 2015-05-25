@@ -1,0 +1,23 @@
+{
+  "name": "simple-web",
+  "version": "1.0.0",
+  "description": "An simple angular and bootstrap starter web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jauma/simple-web.git"
+  },
+  "author": "juanmanavarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jauma/simple-web/issues"
+  },
+  "homepage": "https://github.com/jauma/simple-web",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^3.8.0"
+  }
+}
