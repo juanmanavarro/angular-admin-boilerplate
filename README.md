@@ -1,5 +1,8 @@
-## Angular boilerplate
+## Simple web
 
-Simple angular boilerplate.
+Simple web boilerplate.
 
-- [Folder structure](https://scotch.io/tutorials/angularjs-best-practices-directory-structure)
+Tools:
+- Angular
+- [Template](http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers)
+- Gulp
