@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>Angular boilerplate</title>
 
-    <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="libs/font-awesome/css/font-awesome.min.css">
+    <!-- build:css css/style.min.css -->
+    <link rel="stylesheet" type="text/css" href="../libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../libs/font-awesome/css/font-awesome.min.css">
+    <!-- endbuild -->
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -56,7 +58,7 @@
                                 <p class="summary">A responsive Bootstrap template designed for digital products</p>
                                 <div class="featured-image">
                                     <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">
-                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
+                                    <img class="img-responsive project-image" src="images/projects/project-featured.png" alt="project name" />
                                     </a>
                                     <div class="ribbon">
                                         <div class="text">New</div>
@@ -72,7 +74,7 @@
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-5.png" alt="project name" />
+                                <img class="img-responsive project-image" src="images/projects/project-5.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">Atom - Designed for Mobile Apps</a></h3>
@@ -83,7 +85,7 @@
 
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-4.png" alt="project name" />
+                                <img class="img-responsive project-image" src="images/projects/project-4.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio - Designed for Web Development Agencies</a></h3>
@@ -94,7 +96,7 @@
 
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                                <img class="img-responsive project-image" src="images/projects/project-1.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">Tempo - Designed for Startups</a></h3>
@@ -104,7 +106,7 @@
                             </div><!--//item-->
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                <img class="img-responsive project-image" src="images/projects/project-2.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta - Designed for Mobile Apps</a></h3>
@@ -351,9 +353,12 @@
         </div><!--//container-->
     </footer><!--//footer-->
 
-
-    <script type="text/javascript" src="libs/angular/angular.min.js"></script>
+    <!-- build:js js/vendor.min.js -->
+    <script type="text/javascript" src="../libs/angular/angular.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/app.min.js -->
     <script type="text/javascript" src="app/app.module.js"></script>
     <script type="text/javascript" src="app/components/home/homeController.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
