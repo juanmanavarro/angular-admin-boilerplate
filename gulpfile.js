@@ -37,7 +37,7 @@ gulp.task('copy', function() {
     gulp.src('src/index.html')
         .pipe(useref())
         .pipe(gulp.dest('dist'));
-    gulp.src('libs/font-awesome/fonts/**')
+    gulp.src('node_modules/font-awesome/fonts/**')
         .pipe(gulp.dest('dist/fonts'));
     gulp.src('src/images/**')
         .pipe(gulp.dest('dist/images'));
