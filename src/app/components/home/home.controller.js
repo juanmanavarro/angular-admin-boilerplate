@@ -10,6 +10,8 @@
         var vm = this;
 
         vm.title = 'Dashboard';
+
+        vm.dt = new Date();
     }
 
 })();
