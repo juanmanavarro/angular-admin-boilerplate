@@ -27,8 +27,10 @@
                 <a class="navbar-brand" href="#">Project name</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Dashboard</a></li>
+                <ul class="nav navbar-nav">
+                    <li ui-sref-active="active">
+                        <a ui-sref="home">Dashboard</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -38,7 +40,7 @@
       <div class="row">
 
         <div class="col-md-12 main">
-            <h1 class="page-header">Dashboard</h1>
+            <div ui-view></div>
         </div>
 
       </div>
@@ -47,11 +49,13 @@
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- build:js js/vendor.min.js -->
-    <script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-ui-router/build/angular-ui-router.min.js"></script>
     <!-- endbuild -->
     <!-- build:js js/app.min.js -->
-    <script type="text/javascript" src="app/app.module.js"></script>
-    <script type="text/javascript" src="app/components/home/home.controller.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/app.routes.js"></script>
+    <script src="app/components/home/home.controller.js"></script>
     <!-- endbuild -->
 </body>
 </html>

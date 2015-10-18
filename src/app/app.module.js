@@ -2,6 +2,9 @@
     'use strict';
 
     angular
-        .module('app', ['app.controllers']);
+        .module('app', [
+            'ui.router',
+            'app.routes',
+            'app.controllers']);
 
 })();

@@ -9,7 +9,7 @@
     function HomeController() {
         var vm = this;
 
-        vm.title = 'Working';
+        vm.title = 'Dashboard';
     }
 
 })();
