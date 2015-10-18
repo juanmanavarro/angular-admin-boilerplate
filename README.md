@@ -1,8 +1,5 @@
-## Simple web
-
-Simple web boilerplate.
+## Angular admin boilerplate
 
 Tools:
 - Angular
-- [Template](http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers)
-- Gulp
+- Bootstrap
