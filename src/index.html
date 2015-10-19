@@ -6,9 +6,11 @@
 
     <!-- build:css css/style.min.css -->
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="../node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../node_modules/angular-ui-bootstrap/ui-bootstrap-csp.css">
+    <!-- styles:css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endinject -->
     <!-- endbuild -->
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -59,18 +61,21 @@
       </div>
     </div>
 
+    <!-- build:js js/vendor.min.js -->
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- build:js js/vendor.min.js -->
     <script src="../node_modules/angular/angular.min.js"></script>
     <script src="../node_modules/angular-ui-router/build/angular-ui-router.min.js"></script>
     <script src="../node_modules/angular-ui-bootstrap/ui-bootstrap.min.js"></script>
     <script src="../node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <!-- endbuild -->
     <!-- build:js js/app.min.js -->
+    <!-- angular:js -->
     <script src="app/app.module.js"></script>
     <script src="app/app.routes.js"></script>
     <script src="app/components/home/home.controller.js"></script>
+    <script src="app/components/users/users.controller.js"></script>
+    <!-- endinject -->
     <!-- endbuild -->
 </body>
 </html>
