@@ -15,6 +15,12 @@
                 templateUrl: 'app/components/home/home.html',
                 controller: 'HomeController',
                 controllerAs: 'vm'
+            })
+            .state('users', {
+                url: '/users',
+                templateUrl: 'app/components/users/users.html',
+                controller: 'UsersController',
+                controllerAs: 'vm'
             });
     }
 
