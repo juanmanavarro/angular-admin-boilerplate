@@ -36,6 +36,7 @@
     "angular-ui-router": "^0.2.15",
     "bootstrap": "^3.3.5",
     "font-awesome": "^4.4.0",
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "protractor": "^2.5.1"
   }
 }
